@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(243, 230, 189);
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 25px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4b5b34;
+  display: flex;
+  justify-content: center;
+}
+ul li a {
+  display: block;
+  color: #f1e6db;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+ul li a.home:hover {
+  background-color: #980204;
+}
+ul li a.Exp:hover {
+  background-color: #ea8913;
+}
+ul li a.Con:hover {
+  background-color: #7fc7cc;
+}
+.chelsea-market-regular {
+  font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.TT {
+  background-color: #fdaba5;
+  color: #092f33;
+  text-align: center;
+  padding: 50px 25px;
+  margin: 0;
+}
+.descrip {
+  font-family: "Mitr", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  text-decoration: underline rgb(132, 87, 71);
+  color: #980204;
+}
+
+.Head-content {
+  text-align: center;
+  margin: 15px auto;
+  color: #980204;
+}
+.board {
+  border: 5px double #980204;
+  background-color: #fdaba5;
+  width: 700px;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.des-box {
+  text-align: left;
+  padding: 20px;
+}
+.head-box {
+  text-align: left;
+  margin-left: 20px;
+}
+.contact-txt {
+  text-align: center;
+  color: #092f33;
+  font-size: 20px;
+}
+
+.mitr-semibold {
+  font-family: "Mitr", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.kodchasan-medium {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #4b5b34;
+}
+.kodchasan-bold {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #092f33;
+}
+
+.board-con {
+  border: 2px dashed #4b5b34;
+  background-color: rgb(250, 222, 210);
+  box-shadow: 10px 10px #ff9009;
+  width: 200px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a.nor:link {
+  color: #af5031;
+  text-decoration: none;
+}
+a.mail:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+}
